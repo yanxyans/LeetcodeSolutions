@@ -1,6 +1,4 @@
-import heapq
 from collections import deque
-
 
 def min_cost_to_visit_every_node(graph: list[list[int]]) -> int:
     n = len(graph)
